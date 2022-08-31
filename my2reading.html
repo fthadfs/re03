@@ -52,6 +52,11 @@
       .word{
         font-family: 'Courier New', Courier, monospace   
       }
+      @media (max-width: 600px) {
+        .muLu {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body class="column flex">
@@ -71,7 +76,7 @@
       <!--左空盒子-->
       <div style="height: 260px; width: 200px;  " class="flex1 centerself "></div>
       <!--目录栏--><!--左上角固定的-->
-      <div style="height: 360px; width: 300px;  z-index: 2;  " class="flex1 centerself fixed baiSe">
+      <div style="height: 360px; width: 300px;  z-index: 2;  " class="flex1 centerself fixed baiSe muLu">
         <div class="word">
           <h2>目录</h2>
           <h4>一.大数据推送下的困惑--信息差</h4>
